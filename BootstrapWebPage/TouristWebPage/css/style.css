@@ -1,0 +1,95 @@
+:root{
+    --primary: #86B817;
+    --secondary: #FE8800;
+    --light: #F5F5F5;
+    --dark: #14141F;
+}
+
+/* Hero Header */
+.hero-header{
+    background: linear-gradient(rgba(20,20,31,0.7), rgba(20,20,31,0.7)), url(../img/bg-hero.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Services */
+.service-item{
+    box-shadow: 0 0 46px rgba(0,0,0,0.08);
+    transition: 0.6s;
+}
+
+.service-item:hover{
+    background: var(--primary)
+}
+
+.service-item *{
+    transition: 0.6s;
+}
+
+.service-item:hover *{
+    color: var(--light) !important;
+}
+
+/* Destination */
+.destination img{
+    transition: 0.7s;
+}
+
+.destination a:hover img{
+    transform: scale(1.2);
+}
+
+/* Packages */
+.package-item{
+    box-shadow: 0 0 46px rgba(0,0,0,0.08);
+}
+
+.package-item img{
+    transition: 0.6s;
+}
+
+.package-item:hover img{
+    transform: scale(1.2);
+}
+
+.btn{
+    font-family: 'Nuito', sans-serif;
+    font-weight: 600;
+    transition: 0.6s;
+}
+
+.btn.btn-success,
+.btn.btn-secondary{
+    color: #F5F5F5;
+}
+
+.btn-square{
+    width: 40px;
+    height: 40px;
+}
+
+/* Booking */
+.booking{
+    background: linear-gradient(rgba(15, 23, 43, 0.7), rgba(15, 23, 43, 0.7)), url(../img/booking.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Team */
+.team-item{
+    box-shadow: 0 0 45px rgba(0,0,0,0.08);
+}
+
+.team-item .btn{
+    background: #fff;
+    color: var(--primary);
+    border-radius: 20px;
+    border-bottom: 1px solid var(--primary);
+}
+
+.team-item .btn:hover{
+    background: var(--primary);
+    color: #fff;
+}
